@@ -1,0 +1,116 @@
+.loginBtn {
+  width: 100%;
+  /* height: 53.9px; */
+  padding: .65em .65em .65em .65em;
+  border: none;
+  outline: none;
+  color: #fff;
+  background-color: #83EB3A;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 16rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginBtn:before {
+  content: '';
+  background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing 20s linear infinite;
+  opacity: 1;
+  transition: opacity .3s ease-in-out;
+  border-radius: 16rem;
+}
+
+.loginBtn:active {
+  color: #085479;
+}
+
+
+.loginBtn:hover:before {
+  opacity: 1;
+}
+
+.loginBtn:after {
+  z-index: -1;
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #085479;
+  left: 0;
+  top: 0;
+  border-radius: 16rem;
+}
+
+@keyframes glowing {
+  0% {
+    background-position: 0 0;
+  }
+
+  50% {
+    background-position: 400% 0;
+  }
+
+  100% {
+    background-position: 0 0;
+  }
+}
+
+.userOptions {
+  width: 100%;
+  padding-top: 1em 0 1em 0;
+  cursor: pointer;
+  text-align: center;
+  /* font-size: .809em; */
+}
+
+.userOpt {
+  padding-left: .7281em;
+  padding-right: .7281em;
+  padding-bottom: .4045em;
+  margin-bottom: .4045em;
+  margin-top: .4045em;
+  border-bottom: 1px dotted #4344B0;
+}
+
+.optEnd {
+  margin-bottom: 0;
+}
+
+.loginBtnText {
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.centeredContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.text {
+  text-align: center;
+  margin-bottom: 0;
+  color: #FFEF92;
+}
+
+.walletOptionsContainer {
+  display: flex;
+  width: 50%;
+  justify-content: space-evenly;
+}

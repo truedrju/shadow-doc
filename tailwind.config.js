@@ -1,0 +1,58 @@
+module.exports = {
+  content: [
+    "./pages/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {
+      colors: {
+        'primary': '#67D590',
+        'div1': '#3B3D46',
+        'div2': '#23242D',
+        'lpink': "#6D5164",
+        'main-card': "#24262E",
+        'emph2': "#BFBEBD",
+        'emph3': "#606164",
+        'high1': '#085479',
+
+        'primary-black': '#202124',
+        'primary-black2': '#1F2021',
+        'primary-black3': "#1D1E25",
+        'plum-purple': '#7B2F8E',
+        'plum-purple-muted': 'rgba(123, 47, 142, .4)',
+        'plum-purple-gradient': 'rgb(109,30,129)',
+        'primary-green': '#84BB3F',
+        'primary-blue': '#8296DB',
+        'p-orange': '#F2A73B',
+        'primary-light-gray': '#BFBEBD',
+        'highlight': '#67697C',
+        'shadow-color': '#322D2B',
+        'div-grey': "#342F2D",
+        'plum-med-gray': '#3B3633',
+        'plum-silver': '#8E8E92',
+        'plum-off-white': '#959291',
+        'plum-cream': '#E0CFC4',
+        'plum-dark': '#2B2523',
+        'plum-blue': '#085479',
+        'plum-white-smoke': "#F1F1F1",
+        'plum-gainsboro': "#D9D9D9",
+        'plum-grey2': "#96979C",
+        'plum-bright-grey': "#606164",
+        'plum-black-russian': "#2B2C30",
+        'plum-black-pearl': '#1F2021',
+        'plum-solid-pink': '#8E2F4C',
+        'plum-sea-turtle-green': '#2F8E88',
+        'plum-winter-green': '#51827D',
+        "plum-space-cadet":'#272C4F'
+      },
+      height: {
+        'card': '327.85px',
+        'card-sm': '116.85px',
+        'card-header': '1.31px',
+      },
+    },
+  },
+  plugins: [
+    require('@tailwindcss/line-clamp'),
+  ],
+}

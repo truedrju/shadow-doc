@@ -1,0 +1,19 @@
+.modalContainer {
+  height: 100%;
+}
+
+.modalBackdrop {
+  padding-top: 1.618em;
+  padding-bottom: 1.618em;
+  z-index: 200;
+  top: 3.538%; 
+  height: 93.844%;
+  position: fixed; 
+  border-radius: 32px;
+  backdrop-filter: blur(.70455em);
+  border: 1px solid #202124;
+  background-color: rgba(36, 21, 44, .64);
+  box-shadow: 0.5809em 0.5809em 1.21275em #332e3c;
+  margin-left: auto;
+  margin-right: auto;
+}
