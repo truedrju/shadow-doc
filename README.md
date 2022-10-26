@@ -1,11 +1,5 @@
-# UI For plum club
-**The #1 Resource for Crypto Education**
+# Shadow Doc POC
 
-## https://plum.club/
 
-### contact plum discord for relevant credentials to get started
-
--> Next 
--> Yarn 
--> Tailwind 
-- how?
+-> Current: POC with data stored in browser session
+-> TODO: Rewrite the APIs to write to Shadow Drive instead of the Browser
